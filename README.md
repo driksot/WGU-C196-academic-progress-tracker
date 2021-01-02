@@ -29,11 +29,11 @@ Note: The zip file submission must also keep the project file and folder structu
 
  * Create features that allow the user to do the following for each term:
 
-  * Add as many courses as needed
+   * Add as many courses as needed
 
-  * Display a list of courses associated with each term
+   * Display a list of courses associated with each term
 
-  * Display a detailed view of the term title (e.g., Term 1, Term 2, Spring Term), the start date, and the end date for each term
+   * Display a detailed view of the term title (e.g., Term 1, Term 2, Spring Term), the start date, and the end date for each term
 
  * Include the following details for each course:
 
