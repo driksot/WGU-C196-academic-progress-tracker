@@ -37,39 +37,39 @@ Note: The zip file submission must also keep the project file and folder structu
 
  * Include the following details for each course:
 
-  * The course title
+    * The course title
 
-  * The start date
+    * The start date
 
-  * The end date
+    * The end date
 
-  * The status (in progress, completed, dropped, plan to take)
+    * The status (in progress, completed, dropped, plan to take)
 
-  * The course instructors’ names, phone numbers, and e-mail addresses 
+    * The course instructors’ names, phone numbers, and e-mail addresses 
 
  * Include features that allow the user to do the following for each course:
 
-  * Add as many assessments as needed.
+    * Add as many assessments as needed.
 
-  * Add a minimum of one optional note per course.
+    * Add a minimum of one optional note per course.
 
-  * Enter, edit, and delete course information.
+    * Enter, edit, and delete course information.
 
-  * Display optional notes.
+    * Display optional notes.
 
-  * Display a detailed view of the course, including the end date.
+    * Display a detailed view of the course, including the end date.
 
-  * Set alerts for the start and end date, that will trigger when the application is not running.
+    * Set alerts for the start and end date, that will trigger when the application is not running.
 
-  * Share notes via a sharing feature (either e-mail or SMS) that automatically populates with the notes.
+    * Share notes via a sharing feature (either e-mail or SMS) that automatically populates with the notes.
 
  * Include features that allow the user to do the following for each assessment:
 
-  * Add performance and objective assessments for each course, including the titles and end dates of the assessments.
+    * Add performance and objective assessments for each course, including the titles and end dates of the assessments.
 
-  * Enter, edit, and delete assessment information.
+    * Enter, edit, and delete assessment information.
 
-  * Set alerts for start and end dates, that will trigger when the application is not running.
+    * Set alerts for start and end dates, that will trigger when the application is not running.
  
 
 ### B.  Design the following screen layouts, including appropriate GUI (graphical user interface) elements (e.g., navigation, input, and information) for each layout:
@@ -116,15 +116,15 @@ Note: The zip file submission must also keep the project file and folder structu
 
  * Include the following interface requirements in the application from part C:
 
-  * the ability to scroll vertically
+    * the ability to scroll vertically
 
-  * an action bar
+    * an action bar
 
-  * two layouts
+    * two layouts
 
-  * input controls
+    * input controls
 
-  * buttons
+    * buttons
  
 
 ### D.  Create a storyboard to demonstrate application flow that includes each of the menus and screens from part B.
