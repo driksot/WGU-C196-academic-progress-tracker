@@ -55,4 +55,12 @@
     <string name="course_detail_notes_button">Notes</string>
     <string name="course_detail_assessments_label">Assessments</string>
     <string name="course_detail_add_assessment_fab">Add Assessment</string>
+    <string name="add_assessment_fab">Add Assessment</string>
+    <string name="assessment_detail_title">Assessment Title</string>
+    <string name="assessment_detail_date">Date</string>
+    <string name="assessment_detail_type">Type</string>
+    <string name="assessment_detail_status">Status</string>
+    <string name="assessment_add_edit_title">Assessment Title</string>
+    <string name="assessment_add_edit_date">Assessment Date</string>
+    <string name="assessment_add_edit_date_calendar">Assessment Date Calendar</string>
 </resources>

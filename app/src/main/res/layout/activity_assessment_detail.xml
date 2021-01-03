@@ -4,6 +4,72 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UI.AssessmentDetailActivity">
+    tools:context=".UI.AssessmentDetailActivity"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/assessment_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/assessment_detail_title"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        android:layout_margin="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/assessment_date_label_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/assessment_detail_date"
+        app:layout_constraintEnd_toStartOf="@id/assessment_date_tv"
+        app:layout_constraintStart_toStartOf="@+id/assessment_title_tv"
+        app:layout_constraintTop_toBottomOf="@id/assessment_title_tv" />
+
+    <TextView
+        android:id="@+id/assessment_date_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="@+id/assessment_title_tv"
+        app:layout_constraintStart_toEndOf="@+id/assessment_date_label_tv"
+        app:layout_constraintTop_toBottomOf="@+id/assessment_title_tv" />
+
+    <TextView
+        android:id="@+id/assessment_type_label_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/assessment_detail_type"
+        app:layout_constraintStart_toStartOf="@+id/assessment_date_label_tv"
+        app:layout_constraintTop_toBottomOf="@+id/assessment_date_label_tv" />
+
+    <TextView
+        android:id="@+id/assessment_type_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="@+id/assessment_date_tv"
+        app:layout_constraintTop_toBottomOf="@+id/assessment_date_tv" />
+
+    <TextView
+        android:id="@+id/assessment_status_label_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/assessment_detail_status"
+        app:layout_constraintStart_toStartOf="@+id/assessment_type_label_tv"
+        app:layout_constraintTop_toBottomOf="@+id/assessment_type_label_tv" />
+
+    <TextView
+        android:id="@+id/assessment_status_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="@+id/assessment_type_tv"
+        app:layout_constraintTop_toBottomOf="@+id/assessment_type_tv" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
