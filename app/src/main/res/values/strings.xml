@@ -63,4 +63,9 @@
     <string name="assessment_add_edit_title">Assessment Title</string>
     <string name="assessment_add_edit_date">Assessment Date</string>
     <string name="assessment_add_edit_date_calendar">Assessment Date Calendar</string>
+    <string name="note_list_item_title">Note Title</string>
+    <string name="note_list_item_description">Note Description</string>
+    <string name="add_note_fab">Add Note</string>
+    <string name="note_add_edit_title">Title</string>
+    <string name="note_add_edit_description">Description</string>
 </resources>

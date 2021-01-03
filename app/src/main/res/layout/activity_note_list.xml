@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UI.AssessmentListActivity">
+    tools:context=".UI.NoteListActivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/assessment_list_recyclerView"
+        android:id="@+id/note_list_recyclerView"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:paddingTop="8dp"
@@ -16,10 +16,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:listitem="@layout/assessment_list_item" />
+        tools:listitem="@layout/note_list_item" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/add_assessment_fab"
+        android:id="@+id/add_note_fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
@@ -30,6 +30,6 @@
         android:tint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:contentDescription="@string/add_assessment_fab" />
+        android:contentDescription="@string/add_note_fab" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
