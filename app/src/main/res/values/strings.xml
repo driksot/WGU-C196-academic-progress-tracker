@@ -35,4 +35,24 @@
     <string name="course_list_item_status">Course Status</string>
     <string name="course_list_item_mentor_name">Mentor Name</string>
     <string name="course_list_item_mentor_email">Mentor Email</string>
+    <string name="add_course_fab">Add Course</string>
+    <string name="course_add_edit_title">Course Title</string>
+    <string name="course_add_edit_start_date">Start Date</string>
+    <string name="course_add_edit_end_date">End Date</string>
+    <string name="course_add_edit_start_date_calendar">Start Date Calendar</string>
+    <string name="course_add_edit_end_date_calendar">End Date Calendar</string>
+    <string name="course_add_edit_mentor_name">Mentor Name</string>
+    <string name="course_add_edit_mentor_phone_number">Mentor Phone Number</string>
+    <string name="course_add_edit_mentor_email_address">Mentor Email Address</string>
+    <string name="assessment_list_title">Assessment Title</string>
+    <string name="assessment_list_date">Assessment Date</string>
+    <string name="assessment_list_type">Assessment Type</string>
+    <string name="course_detail_title">Course Title</string>
+    <string name="course_detail_start_date">Start Date</string>
+    <string name="course_detail_end_date">End Date</string>
+    <string name="course_detail_status">Course Status</string>
+    <string name="course_detail_mentor">Mentor</string>
+    <string name="course_detail_notes_button">Notes</string>
+    <string name="course_detail_assessments_label">Assessments</string>
+    <string name="course_detail_add_assessment_fab">Add Assessment</string>
 </resources>
