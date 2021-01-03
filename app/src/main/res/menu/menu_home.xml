@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home_populate_db"
+        android:title="@string/home_menu_populate_database"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/home_clear_db"
+        android:title="@string/home_menu_clear_database"
+        app:showAsAction="never" />
+
+</menu>

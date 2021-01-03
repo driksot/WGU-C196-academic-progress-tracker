@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AcademicProgressTracker">
-        <activity android:name=".MainActivity">
+        <activity android:name=".UI.AssessmentDetailActivity"></activity>
+        <activity android:name=".UI.CourseDetailActivity" />
+        <activity android:name=".UI.TermDetailActivity" />
+        <activity android:name=".UI.AssessmentListActivity" />
+        <activity android:name=".UI.CourseListActivity" />
+        <activity android:name=".UI.TermListActivity" />
+        <activity android:name=".UI.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

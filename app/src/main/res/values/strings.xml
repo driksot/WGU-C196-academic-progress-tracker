@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Academic Progress Tracker</string>
+    <string name="home_menu_populate_database">Populate Database With Test Data</string>
+    <string name="home_menu_clear_database">Clear Database</string>
+    <string name="main_terms_label">Terms</string>
+    <string name="main_number_of_terms">Number of Terms:</string>
+    <string name="main_term_list_button">Term List</string>
+    <string name="main_default_amount">0</string>
+    <string name="main_courses_label">Courses</string>
+    <string name="main_courses_in_progress_label">Courses In Progress:</string>
+    <string name="main_courses_completed_label">Courses Completed:</string>
+    <string name="main_courses_dropped_label">Courses Dropped:</string>
+    <string name="main_courses_to_take_label">Courses to Take:</string>
+    <string name="main_course_list_button">Course List</string>
+    <string name="main_assessments_label">Assessments</string>
+    <string name="main_assessments_pending_label">Assessments Pending:</string>
+    <string name="main_assessments_passed_label">Assessments Passed:</string>
+    <string name="main_assessments_failed_label">Assessments Failed:</string>
+    <string name="main_assessment_list_button">Assessment List</string>
 </resources>
