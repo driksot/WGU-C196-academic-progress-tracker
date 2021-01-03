@@ -17,4 +17,22 @@
     <string name="main_assessments_passed_label">Assessments Passed:</string>
     <string name="main_assessments_failed_label">Assessments Failed:</string>
     <string name="main_assessment_list_button">Assessment List</string>
+    <string name="term_list_item_title">Term Title</string>
+    <string name="term_list_item_dates">Term Dates</string>
+    <string name="add_term_fab">Add Term</string>
+    <string name="term_detail_title">Term Title</string>
+    <string name="term_detail_start_date">Start Date</string>
+    <string name="term_detail_end_date">End Date</string>
+    <string name="term_detail_courses_label">Courses</string>
+    <string name="term_detail_add_course">Add Course</string>
+    <string name="term_add_edit_title">Term Title</string>
+    <string name="term_add_edit_start_date">Start Date</string>
+    <string name="term_add_edit_end_date">End Date</string>
+    <string name="term_add_edit_start_date_calendar">Start Date Calendar</string>
+    <string name="term_add_edit_end_date_calendar">End Date Calendar</string>
+    <string name="course_list_item_title">Course Title</string>
+    <string name="course_list_item_dates">Course Dates</string>
+    <string name="course_list_item_status">Course Status</string>
+    <string name="course_list_item_mentor_name">Mentor Name</string>
+    <string name="course_list_item_mentor_email">Mentor Email</string>
 </resources>

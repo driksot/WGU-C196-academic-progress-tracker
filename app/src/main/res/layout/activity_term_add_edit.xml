@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.TermAddEditActivity"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/update_term_title_et"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/term_add_edit_title"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:background="@drawable/custom_input"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="@string/term_add_edit_title" />
+
+    <EditText
+        android:id="@+id/update_term_start_et"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="@string/term_add_edit_start_date"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_input"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/update_term_title_et"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:autofillHints="@string/term_add_edit_start_date" />
+
+    <EditText
+        android:id="@+id/update_term_end_et"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="@string/term_add_edit_end_date"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_input"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/update_term_start_et"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:autofillHints="@string/term_add_edit_end_date" />
+
+    <ImageButton
+        android:id="@+id/update_term_start_imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_calendar"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/update_term_title_et"
+        android:contentDescription="@string/term_add_edit_start_date_calendar" />
+
+    <ImageButton
+        android:id="@+id/update_term_end_imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_calendar"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/update_term_start_et"
+        android:contentDescription="@string/term_add_edit_end_date_calendar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
